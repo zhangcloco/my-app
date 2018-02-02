@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.mask {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .5);
+  z-index: 2000
+}
+
+.loading {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: -20px 0 0 -20px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  animation: rotateing 1s linear infinite;
+}

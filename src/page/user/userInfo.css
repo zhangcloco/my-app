@@ -1,0 +1,35 @@
+.user-box {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    /* margin-top: 50%; */
+}
+
+.user-box p {
+    width: 240px;
+    height: 45px;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.user-btn {
+    width: 240px;
+    height: 50px;
+    font-size: 15px;
+    background: #df4a40;
+    color: #ffffff;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+}
+
+.to-psg {
+    width: 240px;
+    height: 50px;
+    font-size: 15px;
+    background: #df4a40;
+    color: #ffffff;
+    border-radius: 5px;
+    outline: none;
+}
